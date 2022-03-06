@@ -1,0 +1,10 @@
+INFO 2022-03-02 18:52:22,583 autoreload 643 Watching for file changes with StatReloader
+INFO 2022-03-02 18:52:23,472 basehttp 179 "GET /admin/ HTTP/1.1" 200 23635
+INFO 2022-03-02 18:52:23,980 basehttp 179 "GET /admin/user/blog/ HTTP/1.1" 200 26827
+INFO 2022-03-02 18:52:24,104 basehttp 179 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2022-03-02 18:52:25,148 basehttp 179 "GET /admin/user/blog/7/change/ HTTP/1.1" 200 26118
+INFO 2022-03-02 18:52:25,220 basehttp 179 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2022-03-02 18:52:27,756 basehttp 179 "POST /admin/user/blog/7/change/ HTTP/1.1" 302 0
+INFO 2022-03-02 18:52:27,843 basehttp 179 "GET /admin/user/blog/ HTTP/1.1" 200 26990
+INFO 2022-03-02 18:52:27,904 basehttp 179 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2022-03-02 18:55:50,303 autoreload 257 D:\python\newblog\dblog\dblog\settings.py changed, reloading.
