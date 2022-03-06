@@ -14,8 +14,7 @@ sys.path.append(BASE_DIR)
 
 SECRET_KEY = 'django-insecure-@mi_3#x=2m#zcov@7+@7*3!p7ig+jw7waum!&-7!g&g=0^uot)'
 
-# 关闭调试
-DEBUG = False
+
 
 # 允许的主机
 ALLOWED_HOSTS = ['*',]
@@ -24,6 +23,7 @@ ALLOWED_HOSTS = ['*',]
 INSTALLED_APPS = [
     # simpleui app注册
     'simpleui',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django_filters',
     # md注册
     'mdeditor',
+
 ]
 
 MIDDLEWARE = [
@@ -144,14 +145,15 @@ USE_L10N = True
 USE_TZ = False
 
 
-
+# 关闭调试
+DEBUG = False
 
 STATIC_URL = 'static/'
-
-# 静态目录收集
-STATICFILES_DIRS = [
-os.path.join(BASE_DIR,STATIC_URL),
-]
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
+#静态目录收集
+# STATICFILES_DIRS = [
+# os.path.join(BASE_DIR,STATIC_URL),
+# ]
 
 # 媒体文件配置
 MEDIA_URL = '/media/'
