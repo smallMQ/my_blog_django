@@ -22,7 +22,7 @@ ALLOWED_HOSTS = ['*',]
 
 INSTALLED_APPS = [
     # simpleui app注册
-    'simpleui',
+    # 'simpleui',
 
     'django.contrib.admin',
     'django.contrib.auth',
